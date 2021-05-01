@@ -13,4 +13,4 @@
 * Css :nail_care:
 
 #
-Inspired by: [“Thought Log”](https://github.com/graceaveris/React.js_thought_log)
+Inspired on: [“Thought Log”](https://github.com/graceaveris/React.js_thought_log)
