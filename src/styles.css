@@ -3,7 +3,7 @@ body {
 }
 
 .App {
-  font-family: sans-serif;
+  font-family: "Courier New", Courier, monospace;
   text-align: center;
 }
 
@@ -34,9 +34,21 @@ button img:hover {
   opacity: 0.9;
 }
 
+.notes {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px 10px;
+  list-style: none;
+  margin-top: 9px;
+  max-width: 65vw;
+  border-radius: 8px;
+  background: #e6c363;
+  box-shadow: #0a0a0a 1px 5px 8px 0px;
+}
+
 .notes img {
   width: 1.5rem;
-  margin: 0 0 -6px 9px;
+  margin: -5px 0 -6px 9px;
   transition: 0.3s;
 }
 .notes img:hover {
@@ -44,19 +56,8 @@ button img:hover {
 }
 
 .stickynotes {
-  margin: 2rem 0.8rem;
+  margin: 1.5rem 0.5rem;
   text-align: left;
-  font-size: 1.3rem;
   font-weight: bold;
-  color: white;
-}
-
-li {
-  list-style: none;
-  margin-top: 6px;
-  /* max-width: 70vw; */
-  /* border-radius: 8px; */
-  /* padding: 30px 10px; */
-  /* background: #c17db854;
-  box-shadow: #0a0a0a 1px 5px 8px 0px; */
+  color: #0f0a18;
 }
