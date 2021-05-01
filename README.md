@@ -1,7 +1,7 @@
 ## Day Six / 30 days of React challenge / Sticky Notes
 
 <p  align="center">
-<img  src="https://media.giphy.com/media/3o7TKv7S69WRS6awc8/giphy.gif"  height="180" alt="flags">
+<img  src="https://media.giphy.com/media/osAcIGTSyeovPq6Xph/giphy.gif"  height="180" alt="stickynote">
 </p>
 
 ## Features :unicorn: 
