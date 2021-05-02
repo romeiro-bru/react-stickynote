@@ -2,26 +2,31 @@ import "./styles.css";
 import { Header } from "./Header/Header";
 import { useState } from "react";
 import add from "./add.svg";
-import checked from "./checked.svg";
+import { AiFillCheckCircle } from "react-icons/ai";
 
 export default function App() {
-  const [stickynote, setStickynote] = useState([]);
+  const [input, setInput] = useState("");
   const [list, setList] = useState([]);
 
-  // console.log(`list => ${list}`);
-  // console.log(`stickynote => ${stickynote}`);
+  // console.log(`input => ${input}`);
 
   const handleInput = (event) => {
-    setStickynote(event.target.value);
-    // console.log(event.target.value);
+    setInput(event.target.value);
+    console.log(event.target.value);
   };
+
   const handleSubmit = (event) => {
-    if (stickynote) {
-      setList(list.concat(stickynote));
+    if (input) {
+      setList([...list, input]);
     }
-    setStickynote();
     event.preventDefault();
   };
+
+  const handleRemove = () => {
+    console.log("removido");
+  };
+
+  console.log(`note => ${list}`);
 
   return (
     <div className="App">
@@ -37,7 +42,9 @@ export default function App() {
           {list.map((item, index) => (
             <li className="notes" key={index}>
               {item}
-              <img src={checked} alt="rmv" />
+              <button onClick={handleRemove}>
+                <AiFillCheckCircle size={25} className="check" />
+              </button>
             </li>
           ))}
         </ul>
