@@ -1,6 +1,6 @@
 import "./styles.css";
-import { Header } from "./Header/Header";
 import { useState } from "react";
+import { Header } from "./Header/Header";
 import add from "./add.svg";
 import { CgCloseR } from "react-icons/cg";
 
@@ -12,10 +12,11 @@ export default function App() {
 
   const handleInput = (event) => {
     setInput(event.target.value);
-    // console.log(event.target.value);
   };
   const handleSubmit = (event) => {
     input && setList([...list, input]);
+
+    setInput("");
     event.preventDefault();
   };
 
@@ -29,7 +30,7 @@ export default function App() {
     <div className="App">
       <Header />
       <form>
-        <input onChange={handleInput} />
+        <input placeholder="leave a note" onChange={handleInput} />
         <button onClick={handleSubmit}>
           <img src={add} alt="add" />
         </button>
