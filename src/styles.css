@@ -28,6 +28,7 @@ button img {
   width: 2.3rem;
   margin: 0 5px -13px 5px;
   transition: 0.3s;
+  cursor: pointer;
 }
 
 button img:hover {
@@ -38,7 +39,7 @@ button img:hover {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 15px 9px;
+  padding: 17px 9px;
   list-style: none;
   margin-top: 9px;
   max-width: 65vw;
@@ -47,14 +48,15 @@ button img:hover {
   box-shadow: #0a0a0a 1px 8px 9px 1px;
 }
 
-.check {
+button .check {
   width: 1.5rem;
   margin: -5px 0 -6px 9px;
   transition: 0.3s;
   color: #c17db8;
+  font-size: 20px;
   cursor: pointer;
 }
-.check:hover {
+button .check:hover {
   opacity: 0.7;
 }
 
