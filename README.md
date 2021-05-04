@@ -7,6 +7,7 @@
 ## Features :unicorn: 
 * Write a note
 * Add your note
+* Delete it
 
 ## Technologies :mag_right:
 * React :sparkles:
