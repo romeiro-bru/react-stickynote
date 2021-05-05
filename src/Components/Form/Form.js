@@ -1,9 +1,9 @@
 import React from "react";
 import "./style.css";
-
 import { useState } from "react";
-import { CgCloseR } from "react-icons/cg";
 import add from "./add.svg";
+
+import { StickyNote } from "../StickyNote/StickyNote";
 
 export function Form() {
   const [input, setInput] = useState("");
@@ -19,9 +19,6 @@ export function Form() {
     event.preventDefault();
   };
 
-  const handleRemove = (itemIndex) => {
-    setList(list.filter((_, index) => index !== itemIndex));
-  };
   // console.log(`input => ${input}`);
   // console.log(`list => ${list}`);
 
@@ -37,17 +34,8 @@ export function Form() {
           <img src={add} alt="add" />
         </button>
       </form>
-      <section className="stickynotes">
-        <ul>
-          {list.map((item, index) => (
-            <li className="notes" key={index}>
-              {item}
-              <button onClick={() => handleRemove(index)}>
-                <CgCloseR className="check" />
-              </button>
-            </li>
-          ))}
-        </ul>
+      <section>
+        <StickyNote list={list} setList={setList} />
       </section>
     </>
   );

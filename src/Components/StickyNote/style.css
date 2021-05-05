@@ -1,0 +1,29 @@
+.notes {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 17px 9px;
+  list-style: none;
+  margin-top: 9px;
+  max-width: 65vw;
+  border-radius: 2px;
+  background: #e6c363;
+  box-shadow: #0a0a0a 1px 8px 9px 1px;
+
+  margin: 1.5rem 0.5rem;
+  text-align: left;
+  font-weight: bold;
+  color: #0f0a18;
+}
+
+button .close {
+  width: 1.5rem;
+  margin: -5px 0 -6px 9px;
+  transition: 0.3s;
+  color: #c17db8;
+  font-size: 20px;
+  cursor: pointer;
+}
+button .close:hover {
+  opacity: 0.7;
+}

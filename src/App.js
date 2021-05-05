@@ -1,6 +1,6 @@
 import "./styles.css";
-import { Header } from "./Header/Header";
-import { Form } from "./Form/Form";
+import { Header } from "./Components/Header/Header";
+import { Form } from "./Components/Form/Form";
 
 export default function App() {
   return (
