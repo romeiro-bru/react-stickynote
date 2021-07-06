@@ -1,5 +1,5 @@
 import React from "react";
-import atom from "./atom.svg";
+import atom from "../../../public/assets/svgs/atom.svg";
 import "./style.css";
 
 export function Header() {
@@ -7,7 +7,7 @@ export function Header() {
     <>
       <h1>
         30 days of React
-        <img src={atom} alt="react" />
+        <img src={atom} alt="react" className="spin" />
       </h1>
       <h2>Day 6</h2>
     </>

@@ -1,7 +1,7 @@
 import React from "react";
 import "./style.css";
 import { useState } from "react";
-import add from "./add.svg";
+import add from "../../../public/assets/svgs/add.svg";
 
 import { StickyNote } from "../StickyNote/StickyNote";
 
@@ -18,9 +18,6 @@ export function Form() {
     setInput("");
     event.preventDefault();
   };
-
-  // console.log(`input => ${input}`);
-  // console.log(`list => ${list}`);
 
   return (
     <>
