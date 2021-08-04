@@ -18,7 +18,7 @@
 Prerequisite to run the following commands <strong>[Node.js](https://nodejs.org/en/download/)</strong>, 
                            <strong>[Git](https://git-scm.com/downloads)</strong>, 
                            <strong>[Yarn](https://yarnpkg.com/)</strong>.
-<br><br>
+<br>
 ```
 git clone https://github.com/romeiro-bru/react-stickynote.git
 cd react-stickynote
