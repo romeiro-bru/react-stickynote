@@ -19,10 +19,12 @@ Prerequisite to run the following commands <strong>[Node.js](https://nodejs.org/
                            <strong>[Git](https://git-scm.com/downloads)</strong>, 
                            <strong>[Yarn](https://yarnpkg.com/)</strong>.
 <br><br>
-```git clone https://github.com/romeiro-bru/starwars-autocomplete-input.git```
-<br>
+```
+git clone https://github.com/romeiro-bru/react-stickynote.git
+cd react-stickynote
+yarn install
+```
 
-```yarn install```
 
 And then run ```yarn start```
 
