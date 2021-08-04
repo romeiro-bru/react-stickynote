@@ -13,9 +13,13 @@
 * React :sparkles:
 * Css :nail_care:
 
+##
+![Screenshot from 2021-08-04 19-39-10](https://user-images.githubusercontent.com/56081906/128264735-7661ffa9-0140-4c0f-9997-0bb1b58ec685.png)
+
+
 ## Installing / Getting started 👨‍🏭
 
-Prerequisite to run the following commands <strong>[Node.js](https://nodejs.org/en/download/)</strong>, 
+Prerequisite to run the following commands => <strong>[Node.js](https://nodejs.org/en/download/)</strong>, 
                            <strong>[Git](https://git-scm.com/downloads)</strong>, 
                            <strong>[Yarn](https://yarnpkg.com/)</strong>.
 <br>
@@ -26,10 +30,9 @@ yarn install
 ```
 
 
-And then run ```yarn start```
+Open the project and run ```yarn start```
 
-Open ```http://localhost:3000``` in your browser
-
+Write ```http://localhost:3000``` in your browser
 
 
 #
