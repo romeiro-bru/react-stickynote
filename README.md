@@ -4,7 +4,7 @@
 <img  src="https://media.giphy.com/media/osAcIGTSyeovPq6Xph/giphy.gif"  height="200" alt="stickynote">
 </p>
 
-## Features :unicorn: 
+## Features 👾 
 * Write a note
 * Add your note
 * Delete it
