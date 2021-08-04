@@ -1,4 +1,4 @@
-## Day Six / 30 days of React challenge / Sticky Note
+## Sticky Note / Day Six / 30 days of React challenge 
 
 <p  align="center">
 <img  src="https://media.giphy.com/media/osAcIGTSyeovPq6Xph/giphy.gif"  height="200" alt="stickynote">
