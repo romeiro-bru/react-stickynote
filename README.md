@@ -13,5 +13,22 @@
 * React :sparkles:
 * Css :nail_care:
 
+## Installing / Getting started 👨‍🏭
+
+Prerequisite to run the following commands <strong>[Node.js](https://nodejs.org/en/download/)</strong>, 
+                           <strong>[Git](https://git-scm.com/downloads)</strong>, 
+                           <strong>[Yarn](https://yarnpkg.com/)</strong>.
+<br><br>
+```git clone https://github.com/romeiro-bru/starwars-autocomplete-input.git```
+<br>
+
+```yarn install```
+
+And then run ```yarn start```
+
+Open ```http://localhost:3000``` in your browser
+
+
+
 #
 Inspired on: [“Thought Log”](https://github.com/graceaveris/React.js_thought_log)
