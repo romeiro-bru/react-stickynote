@@ -5,7 +5,6 @@
 </p>
 
 ## Features 👾 
-* Write a note
 * Add your note
 * Delete it
 
