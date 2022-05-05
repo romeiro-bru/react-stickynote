@@ -1,6 +1,6 @@
 import React from "react";
-import atom from "../../../public/assets/svgs/atom.svg";
 import "./style.css";
+import atom from "../../assets/svg/atom.svg";
 
 export function Header() {
   return (

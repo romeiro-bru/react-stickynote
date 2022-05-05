@@ -1,33 +1,32 @@
 import React from "react";
 import "./style.css";
 import { useState } from "react";
-import add from "../../../public/assets/svgs/add.svg";
-
+import add from "../../assets/svg/add.svg";
 import { StickyNote } from "../StickyNote/StickyNote";
 
 export function Form() {
-  const [input, setInput] = useState("");
-  const [list, setList] = useState([]);
+  const [input, setInput] = useState<string>("");
+  const [list, setList] = useState<string[]>([]);
 
-  const handleInput = (event) => {
-    setInput(event.target.value);
+  const handleChange = (e: React.ChangeEvent<HTMLInputElement>) => {
+    setInput(e.target.value);
   };
 
-  const handleSubmit = (event) => {
-    input && setList([...list, input]);
+  const handleSubmit = (e: React.FormEvent<HTMLFormElement>) => {
+    e.preventDefault();
     setInput("");
-    event.preventDefault();
+    return input && setList([...list, input]);
   };
 
   return (
     <>
-      <form>
+      <form onSubmit={handleSubmit}>
         <input
           value={input}
           placeholder=" leave a note here"
-          onChange={handleInput}
+          onChange={handleChange}
         />
-        <button onClick={handleSubmit}>
+        <button>
           <img src={add} alt="add" />
         </button>
       </form>
