@@ -1,17 +1,21 @@
-import React from "react";
+import React, { SetStateAction } from "react";
 import "./style.css";
 import { CgCloseR } from "react-icons/cg";
 
+type StickyNote = {
+  list: string[],
+  setList: React.Dispatch<SetStateAction<string[]>>,
+}
 
 
-export function StickyNote({ list, setList }: any) {
+export function StickyNote({ list, setList }: StickyNote) {
   const handleRemove = (itemIndex: number) => {
-    setList(list.filter((_: any, index: number) => index !== itemIndex));
+    setList(list.filter((_, index) => index !== itemIndex));
   };
 
   return (
     <ul>
-      {list.map((item: string, index: number) => (
+      {list.map((item, index) => (
         <li className="shadow-lg py-4 px-2 my-6 mx-.5 justify-between flex text-left font-semibold rounded-sm bg-amber-200 notes" key={index}>
           {item}
           <button onClick={() => handleRemove(index)}>
