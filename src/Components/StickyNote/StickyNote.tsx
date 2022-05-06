@@ -2,7 +2,9 @@ import React from "react";
 import "./style.css";
 import { CgCloseR } from "react-icons/cg";
 
-export function StickyNote({ list, setList }) {
+
+
+export function StickyNote({ list, setList }: any) {
   const handleRemove = (itemIndex: number) => {
     setList(list.filter((_: any, index: number) => index !== itemIndex));
   };

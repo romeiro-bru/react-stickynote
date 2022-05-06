@@ -5,7 +5,7 @@ import add from "../../assets/svg/add.svg";
 import { StickyNote } from "../StickyNote/StickyNote";
 
 export function Form() {
-  const [input, setInput] = useState<string>("");
+  const [input, setInput] = useState("");
   const [list, setList] = useState<string[]>([]);
 
   const handleChange = (e: React.ChangeEvent<HTMLInputElement>) => {
@@ -25,6 +25,7 @@ export function Form() {
           value={input}
           placeholder=" leave a note here"
           onChange={handleChange}
+          className="my-9 rounded-lg	border-2 border-amber-200"
         />
         <button>
           <img src={add} alt="add" />
