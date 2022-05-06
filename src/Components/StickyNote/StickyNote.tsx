@@ -12,10 +12,10 @@ export function StickyNote({ list, setList }: any) {
   return (
     <ul>
       {list.map((item: string, index: number) => (
-        <li className="notes" key={index}>
+        <li className="shadow-lg py-4 px-2 my-6 mx-.5 justify-between flex text-left font-semibold rounded-sm bg-amber-200 notes" key={index}>
           {item}
           <button onClick={() => handleRemove(index)}>
-            <CgCloseR className="close" />
+            <CgCloseR className="text-lg mr-2 duration-300 hover:opacity-60" />
           </button>
         </li>
       ))}
