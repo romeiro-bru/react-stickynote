@@ -5,7 +5,7 @@ import { Form } from "./Components/Form/Form";
 
 export default function App() {
   return (
-    <div className="text-center min-h-screen bg-cyan-900">
+    <div className="text-center min-h-screen bg-[#193549]">
       <Header />
       <Form />
     </div>
