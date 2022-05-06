@@ -14,15 +14,11 @@
 > Check out the project on [Codepen](https://codesandbox.io/s/github/romeiro-bru/react-stickynote)
 
 ## Features 👾 
-* Add your note
-* Delete it
-
-## Technologies :mag_right:
-* React :sparkles:
-* Css :nail_care:
+* Add notes
+* Delete the notes
 
 ##
-![Screenshot from 2021-08-04 19-39-10](https://user-images.githubusercontent.com/56081906/128264735-7661ffa9-0140-4c0f-9997-0bb1b58ec685.png)
+<img src="https://user-images.githubusercontent.com/56081906/167222865-683fdf05-4dc3-48d0-b3ff-a5a66e18fb09.gif" />
 
 
 ## Installing / Getting started 👨‍🏭
