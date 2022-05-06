@@ -25,7 +25,7 @@ export function Form() {
           value={input}
           placeholder=" leave a note here"
           onChange={handleChange}
-          className="my-9 rounded-lg	border-2 border-amber-200"
+          className="py-1.5 px-1.5 my-9 bg-transparent rounded-lg	border-2 border-amber-200 text-white text-lg"
         />
         <button>
           <img src={add} alt="add" />
