@@ -7,8 +7,8 @@
   <img  src="https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white"  height="25" alt="typescript">
 </p>
 
-<p  align="center">
-<img  src="https://media.giphy.com/media/osAcIGTSyeovPq6Xph/giphy.gif"  height="120" alt="stickynote gif">
+<p  align="left">
+<img  src="https://media.giphy.com/media/osAcIGTSyeovPq6Xph/giphy.gif"  height="100" alt="stickynote gif">
 </p>
 
 > Check out the project on [Codepen](https://codesandbox.io/s/github/romeiro-bru/react-stickynote)
