@@ -12,6 +12,8 @@
 </p>
 
 > Check out the project on [Codepen](https://codesandbox.io/s/github/romeiro-bru/react-stickynote)
+> <br>
+> Sticky Note is a simple project I built in 2021 to practice React and now (2022) I'm adding [Typescript](https://www.typescriptlang.org) and [Tailwind](https://tailwindcss.com/).
 
 ## Features 👾 
 * Add notes
@@ -38,6 +40,14 @@ Open the project and run ```yarn start```
 
 Write ```http://localhost:3000``` in your browser
 
+## What I Learned
+* Style an element when it’s an even child using the even modifier.
+* Cutomize component color using square brackets.
+
+```html
+<li className="even:bg-[#808f9e]">
+```
+<br>
 
 #
 
