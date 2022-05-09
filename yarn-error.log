@@ -1,0 +1,66 @@
+Arguments: 
+  /usr/local/bin/node /usr/share/yarn/bin/yarn.js start
+
+PATH: 
+  ./bin:./node_modules/.bin:/anaconda3/bin:/home/bruna/anaconda3/bin:/home/bruna/.rbenv/shims:/home/bruna/.rbenv/bin:./bin:./node_modules/.bin:/anaconda3/bin:/home/bruna/anaconda3/bin:/home/bruna/.rbenv/shims:/home/bruna/.rbenv/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/usr/local/sbin:/home/bruna/Android/Sdk/emulator:/home/bruna/Android/Sdk/tools:/home/bruna/Android/Sdk/tools/bin:/home/bruna/Android/Sdk/platform-tools:/home/bruna/android-studio/bin:/usr/local/sbin:/home/bruna/Android/Sdk/emulator:/home/bruna/Android/Sdk/tools:/home/bruna/Android/Sdk/tools/bin:/home/bruna/Android/Sdk/platform-tools:/home/bruna/android-studio/bin
+
+Yarn version: 
+  1.22.5
+
+Node version: 
+  17.3.1
+
+Platform: 
+  linux x64
+
+Trace: 
+  SyntaxError: /home/bruna/code/romeiro-bru/react-stickynote/package.json: Unexpected token } in JSON at position 507
+      at JSON.parse (<anonymous>)
+      at /usr/share/yarn/lib/cli.js:1625:59
+      at Generator.next (<anonymous>)
+      at step (/usr/share/yarn/lib/cli.js:310:30)
+      at /usr/share/yarn/lib/cli.js:321:13
+
+npm manifest: 
+  {
+    "name": "react",
+    "version": "1.0.0",
+    "description": "React example starter project",
+    "keywords": [
+      "react",
+      "starter"
+    ],
+    "main": "src/index.js",
+    "dependencies": {
+      "@types/jest": "27.5.0",
+      "@types/node": "16.11.33",
+      "@types/react": "18.0.8",
+      "@types/react-dom": "18.0.3",
+      "react": "17.0.2",
+      "react-dom": "17.0.2",
+      "react-icons": "4.2.0",
+      "react-scripts": "4.0.0",
+      "typescript": "4.6.4"
+    },
+    "devDependencies": {
+      "@babel/runtime": "7.13.8",
+    },
+    "scripts": {
+      "start": "react-scripts start",
+      "build": "react-scripts build",
+      "test": "react-scripts test --env=jsdom",
+      "eject": "react-scripts eject"
+    },
+    "browserslist": [
+      ">0.2%",
+      "not dead",
+      "not ie <= 11",
+      "not op_mini all"
+    ]
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
