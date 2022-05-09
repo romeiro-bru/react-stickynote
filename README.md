@@ -13,7 +13,7 @@
 
 > Check out the project on [Codepen](https://codesandbox.io/s/github/romeiro-bru/react-stickynote)
 > <br>
-> Sticky Note is a simple project I built in 2021 to practice React and now (2022) I'm adding [Typescript](https://www.typescriptlang.org) and [Tailwind](https://tailwindcss.com/).
+> Sticky Note is a simple project I built in 2021 to practice React and in 2022 added [Typescript](https://www.typescriptlang.org) and [Tailwind](https://tailwindcss.com/).
 
 ## Features 👾 
 * Add notes
