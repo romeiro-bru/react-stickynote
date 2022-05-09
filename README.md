@@ -11,7 +11,7 @@
 <img  src="https://media.giphy.com/media/osAcIGTSyeovPq6Xph/giphy.gif"  height="100" alt="stickynote gif">
 </p>
 
-> Check out the project on [Codepen](https://codesandbox.io/s/github/romeiro-bru/react-stickynote)
+> Check out the project on [Netlify](https://stickynote-react-typescript.netlify.app/)
 > <br>
 > Sticky Note is a simple project I built in 2021 to practice React and in 2022 added [Typescript](https://www.typescriptlang.org) and [Tailwind](https://tailwindcss.com/).
 
